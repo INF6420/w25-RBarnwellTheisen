@@ -1,9 +1,20 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 90;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    border-style: double;
+    border-color: black;
+  
+    
+
+a {
+    color: blue;
+}
 img {
     max-width: 100%;
 }
@@ -11,7 +22,60 @@ img {
 header,
 main,
 footer {
-max-width: 80vw;
-margin: 0 auto;
+max-width: 100vw;
+margin: 10px;
+
+
 }
 
+.header-names {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+ 
+}
+
+.header-school {
+    display: flex;
+    justify-content: right;
+    align-items: center;   
+    gap: 1rem;
+    margin: 10px;
+
+    
+}
+
+.header-school-logo img {
+    max-width: 45px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    gap: 1rem;
+    margin: 10px;
+    inline-flex
+    
+}
+
+	
+.header-links a {
+    display: flex;
+    border: 2px solid rgb(58, 3, 153);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+    background-color: rgb(131, 235, 245);
+    align-items: center;
+    margin-top: 10px;
+       
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+   
+    
+}
